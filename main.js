@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:35
+// A:NaN
 
 
 // 7.
@@ -44,7 +44,7 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-let age;
+let age=today-born;
 console.log("Tim is "+age+" old");
 // A:
 
@@ -176,7 +176,7 @@ if(m){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:false
 
 
 // 24.
@@ -212,7 +212,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:false
+// A:True
 
 
 // 28.
